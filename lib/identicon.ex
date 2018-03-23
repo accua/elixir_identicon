@@ -23,7 +23,7 @@ defmodule Identicon do
       |> List.flatten
       |> Enum.with_index
 
-    %Identicon.Image{image | grid: grid }
+    %Identicon.Image{image | grid: grid}
   end
 
   def mirror_row([first, second | _tail] = row) do
